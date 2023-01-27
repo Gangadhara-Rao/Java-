@@ -1,0 +1,39 @@
+String:
+Generally, String is a sequence of characters. But in Java, string is an object that represents a sequence of characters. The java.lang.String class is used
+to create a string object.
+
+There are two ways to create String object:
+1) String Literal
+Java String literal is created by using double quotes. For Example:
+
+String s="welcome";  
+
+2) By new keyword
+
+String s=new String("Welcome");
+
+String Concatenation in Java
+In Java, String concatenation forms a new String that is the combination of multiple strings. There are two ways to concatenate strings in Java:
+
+1.By + (String concatenation) operator
+2.By concat() method
+1) String Concatenation by + (String concatenation) operator
+Java String concatenation operator (+) is used to add strings.
+
+2) String Concatenation by concat() method
+The String concat() method concatenates the specified string to the end of current string.
+
+Type Casting in Java
+In Java, type casting is a method or process that converts a data type into another data type in both ways manually and automatically.
+
+Types of Type Casting
+There are two types of type casting:
+
+1.Widening Type Casting
+Converting a lower data type into a higher one is called widening type casting. It is also known as implicit conversion or casting down.
+byte -> short -> char -> int -> long -> float -> double  
+
+2.Narrowing Type Casting
+Converting a higher data type into a lower one is called narrowing type casting. It is also known as explicit conversion or casting up. 
+double -> float -> long -> int -> char -> short -> byte  
+
